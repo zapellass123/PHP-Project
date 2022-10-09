@@ -1,6 +1,7 @@
 <?php
-include 'code crud/create-db.php';
-include 'code crud/logo.php';
+@include 'code crud/create-db.php';
+@include 'code crud/logo.php';
+
 ?>
 <!doctype html>
 <html lang="en">
@@ -39,6 +40,9 @@ include 'code crud/logo.php';
                     </li>
                     <li class="list-inline-item">
                         <a class="btn btn-outline-secondary" href="pengajuan.php">Form Pengajuan</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn btn-outline-secondary" href="calculator.php">Calculator</a>
                     </li>
                     </li>
                 </ul>
