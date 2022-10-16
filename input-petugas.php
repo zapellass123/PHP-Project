@@ -15,7 +15,7 @@ include 'code crud/logo.php';
     <link rel="stylesheet" href="css/style.css">
     <link href="fontawesome/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="css/sweetalert2.min.css">
-    <title>Input Petugas</title>
+    <title>Input Pekerja</title>
     <link rel="shortcut icon" href="logo/<?php echo $logo_sekolah; ?>" type="image/x-icon">
 </head>
 
@@ -28,7 +28,7 @@ include 'code crud/logo.php';
                     <form action="" method="post" enctype="multipart/form-data" class="needs-validation" novalidate>
                         <div class="row">
                             <div class="col">
-                                <h5><span style="color: red;">*</span> Data Petugas</h5>
+                                <h5><span style="color: red;">*</span> Data Pekerja</h5>
                                 <div class="form-group">
                                     <input type="text" name="nama_siswa" class="form-control rounded-lg" placeholder="No Berkas" required>
                                 </div>
